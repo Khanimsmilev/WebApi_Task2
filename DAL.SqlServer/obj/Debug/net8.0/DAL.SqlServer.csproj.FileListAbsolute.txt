@@ -16,3 +16,7 @@ C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\obj\Debug\net8.0\DAL.
 C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\obj\Debug\net8.0\refint\DAL.SqlServer.dll
 C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.pdb
 C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\obj\Debug\net8.0\ref\DAL.SqlServer.dll
+C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\bin\Debug\net8.0\Application.dll
+C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\bin\Debug\net8.0\Common.dll
+C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\bin\Debug\net8.0\Application.pdb
+C:\Users\user\source\repos\ManagementSystem_\DAL.SqlServer\bin\Debug\net8.0\Common.pdb

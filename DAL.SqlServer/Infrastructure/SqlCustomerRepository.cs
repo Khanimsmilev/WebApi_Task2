@@ -12,10 +12,13 @@ public class SqlCustomerRepository(string connectionString, AppDbContext context
     public async Task AddAsync(Customer customer)
     {
         var sql = @"INSERT INTO Customers([Name],[CreatedBy])
-                    VALUES (@Name, @CreatedBy)";
+                    VALUES (@Name, @CreatedBy); SELECT SCOPE_IDENTITY()";
 
         using var conn = OpenConnection();
-        await conn.QueryAsync(sql, customer);
+        var generatedId = await conn.ExecuteScalarAsync<int>(sql, customer);
+        customer.Id = generatedId;
+
+        //await conn.QueryAsync(sql, customer);
     }
 
     public bool Delete(int id, int deletedBy)

@@ -12,10 +12,12 @@ public class SqlProductRepository(string connectionString, AppDbContext context 
     public async Task AddAsync(Product product)
     {
         var sql = @"INSERT INTO Product([Name],[CreatedBy])
-                    VALUES (@Name, @CreatedBy)";
+                    VALUES (@Name, @CreatedBy); SELECT SCOPE_IDENTITY()";
 
         using var conn = OpenConnection();
-        await conn.QueryAsync(sql, product);
+        var generatedId =await conn.ExecuteScalarAsync<int>(sql, product);
+
+        //await conn.QueryAsync(sql, product);
     }
 
     public bool Delete(int id, int deletedBy)

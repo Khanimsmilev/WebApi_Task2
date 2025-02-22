@@ -10,3 +10,11 @@ C:\Users\user\source\repos\ManagementSystem_\Application\obj\Debug\net8.0\Applic
 C:\Users\user\source\repos\ManagementSystem_\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\user\source\repos\ManagementSystem_\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\user\source\repos\ManagementSystem_\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\user\source\repos\ManagementSystem_\Application\bin\Debug\net8.0\Common.dll
+C:\Users\user\source\repos\ManagementSystem_\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\user\source\repos\ManagementSystem_\Application\bin\Debug\net8.0\Repository.dll
+C:\Users\user\source\repos\ManagementSystem_\Application\bin\Debug\net8.0\Common.pdb
+C:\Users\user\source\repos\ManagementSystem_\Application\bin\Debug\net8.0\Repository.pdb
+C:\Users\user\source\repos\ManagementSystem_\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\user\source\repos\ManagementSystem_\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ManagementSystem_\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
