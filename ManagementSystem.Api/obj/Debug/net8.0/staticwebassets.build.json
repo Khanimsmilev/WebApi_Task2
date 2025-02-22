@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fl8/VZBt2fHlB3dQ34K5lYc5jFaSKmvwmGH8Eu18gKI=",
+  "Source": "ManagementSystem.Api",
+  "BasePath": "_content/ManagementSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
